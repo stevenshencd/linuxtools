@@ -1,0 +1,10 @@
+memory: cat /proc/meminfo | head; htop; top
+cpu: grep "model name" /proc/cpuinfo
+system: dmidecode
+link: ln -s target linkname
+find -name "name" directoryname
+mount devname mountpoint, e.g mount /dev/sda2 /media/myfs. adding itmes in /etc/fstab to get automatic mount 
+umount fsname, e.g umount /media/cd
+vim: copy=pp, paste=
+grep "content" filename
+profile: $HOME/.bashrc or $HOME/.profile
