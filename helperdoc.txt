@@ -8,3 +8,7 @@ umount fsname, e.g umount /media/cd
 vim: copy=pp, paste=
 grep "content" filename
 profile: $HOME/.bashrc or $HOME/.profile
+install: yum [options] [command] [package ...], which is based on RPM
+install: apt-get install yum
+install: deb, cmd dkpg -f file.deb
+software source: /etc/apt/sources.list
