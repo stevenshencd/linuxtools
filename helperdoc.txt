@@ -11,3 +11,8 @@ grep "content" filename
 profile: $HOME/.bashrc or $HOME/.profile
 git: method1 for upload local existing project folder. create repository in Github; in local folder: git init -> git add . -> git commit -m "comments" -> git remote add origin "remote url" -> git pull origin master -> git push origin master;
 git: method2 for project existed in git server. git clone [github_repository_url] -> git pull -> edit file -> git add . -> git commit -m [your_comment] -> git push origin [your-branch] 
+install: yum [options] [command] [package ...], which is based on RPM
+install: apt-get install yum
+install: deb, cmd dkpg -f file.deb
+software source: /etc/apt/sources.list
+
