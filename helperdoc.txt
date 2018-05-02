@@ -1,0 +1,13 @@
+usage: to execute grep command with keyword, e.g. grep cpu
+memory: cat /proc/meminfo | head; htop; top
+cpu: grep "model name" /proc/cpuinfo
+system: dmidecode
+link: ln -s target linkname
+find -name "name" directoryname
+mount devname mountpoint, e.g mount /dev/sda2 /media/myfs. adding itmes in /etc/fstab to get automatic mount 
+umount fsname, e.g umount /media/cd
+vim: copy=pp, paste=
+grep "content" filename
+profile: $HOME/.bashrc or $HOME/.profile
+git: method1 for upload local existing project folder. create repository in Github; in local folder: git init -> git add . -> git commit -m "comments" -> git remote add origin "remote url" -> git pull origin master -> git push origin master;
+git: method2 for project existed in git server. git clone [github_repository_url] -> git pull -> edit file -> git add . -> git commit -m [your_comment] -> git push origin [your-branch] 
