@@ -15,4 +15,5 @@ install: yum [options] [command] [package ...], which is based on RPM
 install: apt-get install yum
 install: deb, cmd dkpg -f file.deb
 software source: /etc/apt/sources.list
+shell control: for v in $values; do done; while [ condition ] do done; if [ condition ];elseif;then;fi
 
